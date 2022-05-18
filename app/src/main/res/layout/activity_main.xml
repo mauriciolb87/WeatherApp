@@ -191,14 +191,14 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginLeft="@dimen/padding_x_large"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="@dimen/padding_x_large"
                 android:layout_marginRight="@dimen/padding_x_large"
                 android:layout_marginBottom="@dimen/padding_x_large"
                 android:layout_centerInParent="true"
                 android:paddingBottom="@dimen/padding_x_large"
                 android:elevation="@dimen/padding_x_small"
-                app:cardMaxElevation="@dimen/padding_x_small"
-                app:cardElevation="@dimen/padding_x_small">
+                app:cardMaxElevation="@dimen/padding_x_large"
+                app:cardElevation="@dimen/padding_x_large">
 
                 <LinearLayout
                     android:layout_width="match_parent"
